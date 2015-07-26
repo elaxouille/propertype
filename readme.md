@@ -2,6 +2,9 @@
 
 Machine a ecrire, de la typographie generative.
 
-- read.py : encapsule letterfrequency
-- curves.py : fonctions qui determinent le dessin des courbes de Bezier
-- draw-main.py : fonction principale qui se sert des variables de read et des fonctions de curves pour dessiner du svg
+
+Fichier | Dependances | Description
+--------|-------------|------------
+read.py| collections, sys, time | Lit l'input.txt et deduit des variables et constantes
+curves.py|aucune| liste des fonctions qui dessinent les courbes de bezier en svg
+draw-main.py| read, curves | rassemble les variables de read et les fonctions de curves
