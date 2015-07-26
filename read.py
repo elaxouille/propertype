@@ -3,8 +3,8 @@
 from letterfrequency import letterfrequency
 import time
 
-fichiermou = 'entree.txt'
-fichierdur = 'amusements-in-mathematics.txt'
+fichiermou = 'txt/entree.txt'
+fichierdur = 'txt/amusements-in-mathematics.txt'
 
 print "[ OK ] Initialisation des modules"
 
