@@ -46,7 +46,7 @@ for i in range(6):
 	st = 'n-test-'+str(i)+'.svg'
 	f = open(st, 'w')
 	f.write(header)
-	f.write(pathn([i,base,div,half,courbe]))
+	f.write(pathn([i*1000,base,div,half,courbe]))
 	f.write('\n')
 	f.write('</svg>')
 	f.close()

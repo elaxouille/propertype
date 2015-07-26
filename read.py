@@ -3,7 +3,7 @@
 import collections, sys, time
 
 fichiermou = 'txt/entree.txt'
-fichierdur = 'txt/amusements-in-mathematics.txt'
+fichierdur = 'txt/monthy-python-meaning-life.txt'
 
 ### http://rosettacode.org/wiki/Letter_frequency#Using_collections.Counter
 def letterfrequency(openfile):
@@ -15,8 +15,8 @@ retour = letterfrequency(open(fichiermou))
 
 print "[ OK ] Initialisation de la variable"
 
-# for item in retour:
-# 	print " \t... character : "+item[0]+" ::: repetitions : "+str(item[1])
-# 	time.sleep(.6)
+for item in retour:
+	print " \t... caractere : --["+item[0]+"]-- ::: repetitions : "+str(item[1])
+	time.sleep(.6)
 
 print "[ OK ] La liste est terminee"
