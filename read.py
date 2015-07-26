@@ -28,7 +28,7 @@ retour = letterfrequency(open(fichier))
 retour_non_sensible = letterfrequency_non_sensible(open(fichier))
 print "[ OK ] Initialisation de la variable"
 
-for item in retour_non_sensible:
+for item in retour:
 	if (compte <= 1) :
 		pass
 	elif (compte % 2 == 0) :
