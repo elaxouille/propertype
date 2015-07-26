@@ -26,7 +26,7 @@ def pathn(a):
 	liste=[]
 	if (isinstance(a,list)) and (len(a)>=4):
 		liste = a
-	print "[OK] - Invocation reussie"
+	print "[ OK ] - Invocation reussie"
 	o = a[0] # 0
 	b = a[1] # 100
 	d = a[2] # 2
@@ -34,12 +34,12 @@ def pathn(a):
 	c = a[4] # 25
 	 # O - B - D - H - C
 	 # 0 -100- 2 - 50- 25
-	print "[OK] - Definition des fonctions"
-	print "[OK] - Initialisation du 'n'"
+	print "[ OK ] - Definition des fonctions"
+	print "[ OK ] - Initialisation du 'n'"
 	ch = '<path fill="black" stroke="none" d="'
 	ch += move(0,0)+lr(b,0.5)+cNE(o,b,d,h,c)+cWN(o,b,d,h,c)+lr(b,2)+cNE(o,b,d,h,c)+ld(b,4.5)+ll(b,1.5)+cSE(o,b,d,h,c)+lu(b,3)+cEN(o,b,d,h,c)+ll(b,1)+cNW(o,b,d,h,c)+ld(b,3)+cES(o,b,d,h,c)+ll(b,0.5)+lu(b,5)
 	ch += closePath()
-	print "[OK] - Dessin du 'n' termine"
+	print "[ OK ] - Dessin du 'n' termine"
 	return ch
 
 for i in range(6):
