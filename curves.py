@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-print "[ OK ] Initialisations des courbes"
+print "[ OK ] Initialisation des courbes"
 
 def move(x,y) :
 	return 'm'+str(x)+','+str(y)
