@@ -1,3 +1,4 @@
 *.pyc
 *.svg
 /txt/monthy-python-meaning-life.txt
+/svg/*

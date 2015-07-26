@@ -43,7 +43,7 @@ def pathn(a):
 	return ch
 
 for i in range(6):
-	st = 'n-test-'+str(i)+'.svg'
+	st = 'svg/n-test-'+str(i)+'.svg'
 	f = open(st, 'w')
 	f.write(header)
 	f.write(pathn([i*1000,base,div,half,courbe]))

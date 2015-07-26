@@ -5,7 +5,7 @@ from colorama import Fore, Back, Style
 
 fichiermou = 'txt/entree.txt'
 fichierdur = 'txt/monthy-python-meaning-life.txt'
-fichier = fichierdur
+fichier = fichiermou
 total = 0
 compte = 0
 
