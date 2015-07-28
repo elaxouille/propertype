@@ -1,37 +1,35 @@
 #!/usr/bin/python
 
-print "[ OK ] Initialisation des courbes"
+print "\r"
+print "\t###### Bienvenue ! ######"
 
-def move(x,y) :
-	return 'm'+str(x)+','+str(y)
 
-def lr(b,x): # x = coefficient
-	return 'l'+str(b*x)+',0'
-def ld(b,x):
-	return 'l0,'+str(b*x)
-def ll(b,x):
-	return 'l'+str(-(b*x))+',0'
-def lu(b,x):
-	return 'l0,'+str(-(b*x))
+print "\r"
+print "[ OK ] Invocation de la grille"
+print "\r"
 
-def cNE(o,b,d,h,c):
-	return 'c'+str(c)+','+str(o)+' '+str(h)+','+str(c)+' '+str(h)+','+str(h)
-def cES(o,b,d,h,c):
-	return 'c'+str(o)+','+str(c)+' '+str(-c)+','+str(h)+' '+str(-h)+','+str(h)
-def cSW(o,b,d,h,c):
-	return 'c'+str(-c)+','+str(o)+' '+str(-h)+','+str(o)+' '+str(-h)+','+str(-h)
-def cWN(o,b,d,h,c):
-	return 'c'+str(o)+','+str(-c)+' '+str(c)+','+str(-h)+' '+str(h)+','+str(-h)
 
-def cNW(o,b,d,h,c):
-	return 'c'+str(-c)+','+str(o)+' '+str(-h)+','+str(c)+' '+str(-h)+','+str(h)
-def cWS(o,b,d,h,c): #################################
-	return 'c'+str(o)+','+str(-c)+' '+str(h)+','+str(-c)+' '+str(h)+','+str(-c)
-def cSE(o,b,d,h,c):
-	return 'c'+str(c)+','+str(o)+' '+str(h)+','+str(-c)+' '+str(h)+','+str(-h)
-def cEN(o,b,d,h,c):
-	return 'c'+str(o)+','+str(-c)+' '+str(-c)+','+str(-h)+' '+str(-h)+','+str(-h)
+move = lambda x,y : 'm'+str(x)+','+str(y)
 
-def closePath():
-	return 'z"/>'
+lr = lambda b,x : 'l'+str(b*x)+',0'
+ld = lambda b,x : 'l0,'+str(b*x)
+ll = lambda b,x : 'l'+str(-(b*x))+',0'
+lu = lambda b,x : 'l0,'+str(-(b*x))
 
+cNE = lambda o,h,c : 'c'+str(c)+','+str(o)+' '+str(h)+','+str(c)+' '+str(h)+','+str(h)
+cES = lambda o,h,c : 'c'+str(o)+','+str(c)+' '+str(-c)+','+str(h)+' '+str(-h)+','+str(h)
+cSW = lambda o,h,c : 'c'+str(-c)+','+str(o)+' '+str(-h)+','+str(o)+' '+str(-h)+','+str(-h)
+cWN = lambda o,h,c : 'c'+str(o)+','+str(-c)+' '+str(c)+','+str(-h)+' '+str(h)+','+str(-h)
+
+cNW = lambda o,h,c : 'c'+str(-c)+','+str(o)+' '+str(-h)+','+str(c)+' '+str(-h)+','+str(h)
+###
+cWS = lambda o,h,c : 'c'+str(o)+','+str(-c)+' '+str(h)+','+str(-c)+' '+str(h)+','+str(-c)
+###
+cSE = lambda o,h,c : 'c'+str(c)+','+str(o)+' '+str(h)+','+str(-c)+' '+str(h)+','+str(-h)
+cEN = lambda o,h,c : 'c'+str(o)+','+str(-c)+' '+str(-c)+','+str(-h)+' '+str(-h)+','+str(-h)
+
+closePath = lambda : 'z'
+closeTag = lambda : '"/>'
+
+print "[ OK ] Grille initialisee"
+print "\r"
