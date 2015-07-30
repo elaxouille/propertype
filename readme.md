@@ -15,7 +15,7 @@ a faire :
 - reappropriation des variables par les fonctions
 
 problemes a resoudre :
-- ~sortie de la liste lue~~
+- ~~sortie de la liste lue~~
 - reparation de la courbe ouest-sud
 - debug et catching exceptions
 - gestion MEP et PDF
