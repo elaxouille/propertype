@@ -20,3 +20,6 @@ problemes a resoudre :
 - debug et catching exceptions
 - gestion MEP et PDF
 - gestion interface
+
+
+rajout du dossier typo strokefont

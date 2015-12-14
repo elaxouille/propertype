@@ -21,7 +21,10 @@ if (user_1 == 'oui'):
 	affiche_liste = True
 	print "\r"
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 ### http://rosettacode.org/wiki/Letter_frequency#Using_collections.Counter
 def letterfrequency(openfile):
 	return sorted(collections.Counter(c for l in openfile for c in l).items())
@@ -31,7 +34,7 @@ def letterfrequency_non_sensible(openfile):
 
 print "[ OK ] Initialisation des modules"
 
-print "[ OK ] Fichier choisi : "+Fore.GREEN+fichier+Style.RESET_ALL
+print "[ OK ] Fichier choisi : "+fichier
 
 
 liste_sensible = letterfrequency(open(fichier))
@@ -47,9 +50,15 @@ if (affiche_liste):
 		if (compte <= 1) :
 			pass
 		elif (compte % 2 == 0) :
+<<<<<<< HEAD
 			print "       "+"-  [ "+item[0]+" ]\tRep : "+str(item[1])+"   \tTotal : "+str(total)
 		else :
 			print "       "+"-  [ "+item[0]+" ]\tRep : "+str(item[1])+"   \tTotal : "+str(total)
+=======
+			print "-  [ "+item[0]+" ]\tRep : "+str(item[1])+"   \tTotal : "+str(total)
+		else :
+			print "-  [ "+item[0]+" ]\tRep : "+str(item[1])+"   \tTotal : "+str(total)
+>>>>>>> origin/master
 		time.sleep(.2)
 		compte += 1
 
