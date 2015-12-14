@@ -1,5 +1,4 @@
 *.pyc
-*.svg
 /txt/monthy-python-meaning-life.txt
 /txt/huge-lorem.txt
 /svg/*
