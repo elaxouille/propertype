@@ -1,7 +1,6 @@
 #!/usr/bin/python
 
-import collections, sys, time, colorama
-from colorama import Fore, Back, Style
+import collections, sys, time
 
 fichiermou = 'txt/entree.txt'
 fichierdur = 'txt/monthy-python-meaning-life.txt'
@@ -22,7 +21,6 @@ if (user_1 == 'oui'):
 	affiche_liste = True
 	print "\r"
 
-colorama.init()
 
 ### http://rosettacode.org/wiki/Letter_frequency#Using_collections.Counter
 def letterfrequency(openfile):
@@ -49,14 +47,12 @@ if (affiche_liste):
 		if (compte <= 1) :
 			pass
 		elif (compte % 2 == 0) :
-			print "       "+Fore.WHITE+Back.MAGENTA+"-  [ "+item[0]+" ]\tRep : "+str(item[1])+"   \tTotal : "+Fore.YELLOW+str(total)+Style.RESET_ALL
+			print "       "+"-  [ "+item[0]+" ]\tRep : "+str(item[1])+"   \tTotal : "+str(total)
 		else :
-			print "       "+Fore.WHITE+Back.BLACK+"-  [ "+item[0]+" ]\tRep : "+str(item[1])+"   \tTotal : "+Fore.GREEN+str(total)+Style.RESET_ALL
+			print "       "+"-  [ "+item[0]+" ]\tRep : "+str(item[1])+"   \tTotal : "+str(total)
 		time.sleep(.2)
 		compte += 1
 
 print "[ OK ] La liste est terminee"
 print "\r"
 nombre_de_n = 0
-
-
