@@ -10,7 +10,8 @@ curves.py|aucune| liste des fonctions qui dessinent les courbes de bezier en svg
 draw-main.py| read, curves | rassemble les variables de read et les fonctions de curves
 
 a faire :
-- toutes les lettres
+- nettoyer toutes les lettres
+- deduire des coordonnees variables et des dimensions basiques
 - algorithme qui redistribue intelligemment les variables
 - reappropriation des variables par les fonctions
 

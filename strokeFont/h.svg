@@ -31,5 +31,9 @@
        id="letter"
        inkscape:connector-curvature="0"
        inkscape:label="#path4347"
-       d="m 283.465,537.087 575.433,0 m 2.464,283.022 0,-564.923 m 0.371,565.365 0,-564.094 m -578.951,563.652 0.682,-563.652"
+       d="
+       m 283,537 575,0
+       m 2,283 0,-565
+       m 0,565 0,-564
+       m -579,564 1,-564"
        style="fill:none;stroke:#000000;stroke-width:21.72780037;stroke-linecap:round;stroke-linejoin:round" /></g></svg>
