@@ -33,5 +33,9 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc"
        inkscape:label="#path4402"
-       d="m 498.898,817.716 0,-226.771 M 209.764,253.622 498.898,590.945 m 0,0 289.134,-337.323"
+       d="
+       m 499,818 0,-227
+       M 210,254 499,591
+       m 0,0 289,-337
+       "
        style="fill:none;stroke:#000000;stroke-width:21.72780037;stroke-linecap:round;stroke-linejoin:round" /></g></svg>

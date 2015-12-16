@@ -11,6 +11,7 @@ draw-main.py| read, curves | rassemble les variables de read et les fonctions de
 
 a faire :
 - nettoyer toutes les lettres
+- retirer les metas inutiles
 - deduire des coordonnees variables et des dimensions basiques
 - algorithme qui redistribue intelligemment les variables
 - reappropriation des variables par les fonctions
