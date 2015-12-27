@@ -25,3 +25,17 @@ problemes a resoudre :
 
 
 rajout du dossier typo strokefont
+
+###### Pour compter les listes de mots :
+
+```python
+from collections import Counter
+import re
+
+reg = re.compile('\S{4,}')
+
+s = "hello this is hello this is baby baby baby baby hello"
+c = Counter(ma.group() for ma in reg.finditer(s))
+print c
+```
+[source](http://stackoverflow.com/questions/15238276/ddg#15238332)
