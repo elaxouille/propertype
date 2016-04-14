@@ -3,7 +3,7 @@
 import collections, sys, time
 
 fichiermou = 'txt/entree.txt'
-fichierdur = 'txt/monthy-python-meaning-life.txt'
+fichierdur = 'txt/proverbs.txt'
 fichier_hyper_dur = 'txt/huge-lorem.txt'
 total = 0
 compte = 0
@@ -21,10 +21,7 @@ if (user_1 == 'oui'):
 	affiche_liste = True
 	print "\r"
 
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/master
 ### http://rosettacode.org/wiki/Letter_frequency#Using_collections.Counter
 def letterfrequency(openfile):
 	return sorted(collections.Counter(c for l in openfile for c in l).items())
@@ -50,15 +47,10 @@ if (affiche_liste):
 		if (compte <= 1) :
 			pass
 		elif (compte % 2 == 0) :
-<<<<<<< HEAD
 			print "       "+"-  [ "+item[0]+" ]\tRep : "+str(item[1])+"   \tTotal : "+str(total)
 		else :
 			print "       "+"-  [ "+item[0]+" ]\tRep : "+str(item[1])+"   \tTotal : "+str(total)
-=======
-			print "-  [ "+item[0]+" ]\tRep : "+str(item[1])+"   \tTotal : "+str(total)
-		else :
-			print "-  [ "+item[0]+" ]\tRep : "+str(item[1])+"   \tTotal : "+str(total)
->>>>>>> origin/master
+
 		time.sleep(.2)
 		compte += 1
 

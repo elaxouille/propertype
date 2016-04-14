@@ -34,8 +34,11 @@
        sodipodi:nodetypes="cccccc"
        inkscape:label="#path4384"
        d="
-       m 337,815 0,-567 329,0
-       c 109,1 196,92 196,201 -1,109 -88,196 -196,196
+       m 337,815
+       l 0,-567
+       l 329,0
+       c 109,1 196,92 196,201
+       c -1,109 -88,196 -196,196
        l -329,0
        "
        style="fill:none;stroke:#000000;stroke-width:21.72780037;stroke-linecap:round;stroke-linejoin:round" /></g></svg>

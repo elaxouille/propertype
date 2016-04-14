@@ -33,14 +33,13 @@
        sodipodi:nodetypes="ccccccccccccccsc"
        stroke-miterlimit="10"
        d="
-       m 628,248
-       m 0,0 -316,0
        m 316,565
        l -316,0
        m 0,-568
        l 0,567
        m 315,0
-       c 72,0 146,-27 201,-82 110,-110 110,-289 0,-400
+       c 72,0 146,-27 201,-82
+       c 110,-110 110,-289 0,-400
        C 773,275 699,248 626,248
        "
        style="fill:none;stroke:#000000;stroke-width:21.72800064;stroke-linecap:round;stroke-miterlimit:10" /></g></svg>
